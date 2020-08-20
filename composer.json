@@ -1,0 +1,21 @@
+{
+    "name": "antoine/facturation",
+    "description": "afpa facturation php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "antoinelamoureux",
+            "email": "antoinelamoureux85@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "Components\\": "components/",
+          "Controllers\\": "controllers/",
+          "Models\\": "models/"
+        }
+    }
+}
